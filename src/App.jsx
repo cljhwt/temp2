@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Guide from "./Components/Guide"
 
 import "./styles.css";
 
@@ -24,8 +25,8 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Wenteng Huang",
-  title: "Ai Engineer & Content Creator",
+  name: "Ai黄同学的智能宇宙",
+  title: "<让Ai补齐每个人的最后1米>",
   email: "953185424@qq.com",
   gitHub: "https://github.com/cljhwt",
 };
@@ -40,6 +41,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <Guide />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

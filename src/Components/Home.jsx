@@ -22,13 +22,17 @@ import PropTypes from "prop-types";
  */
 import image from "../images/微信图片_20240210114747.jpg";
 
-const imageAltText = "Adult female in office setting leaning against a glass wall while holding a platinum Microsoft Surface Pro 7 in tablet mode preparing to write with Microsoft Surface Pen";
+const videoSrc = "https://cdn.openai.com/tmp/s/paper-planes.mp4";
+const imageAltText = "首页头图，保持更新";
 
 const Home = ({ name, title }) => {
   return (
     <section id="home" className="min-height">
-      <img className="background" src={image} alt="" />
-      <div style={{ position: "absolute", top: "5rem", left: "2rem", width: "17rem" }}>
+      <video className="background" autoPlay loop muted>
+        <source src={videoSrc} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+      <div style={{ position: "absolute", top: "15rem", left: "2rem", color: "white", fontFamily: "Microsoft YaHei, Arial, sans-serif", textAlign: "center" }}>
         <h1>{name}</h1>
         <h2>{title}</h2>
       </div>

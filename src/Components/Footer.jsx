@@ -18,6 +18,7 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
+import hongshuIcon from "../images/socials/小红书.png";
 
 /**
  * 💡 Learning resources
@@ -114,7 +115,7 @@ const Footer = (props) => {
         )}
       </div>
       <p className="small" style={{ marginTop: 0, color: "white" }}>
-        Created by {name}
+      Copyright © 2016-2024 杭州星奥传媒有限公司 版权所有
       </p>
     </div>
   );
