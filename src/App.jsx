@@ -25,7 +25,7 @@ import "./styles.css";
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Ai黄同学的智能宇宙",
+  name: "华康简魏的智能宇宙",
   title: "<让Ai补齐每个人的最后1米>",
   email: "953185424@qq.com",
   gitHub: "https://github.com/cljhwt",
